@@ -60,7 +60,7 @@ class TestBooksCollector:
             genre = self.collector.get_book_genre('Сказка')
             self.assertEqual(genre, 'Мультфильмы')
 
-        # Тест выбора книг конкретного жанра
+        # Тест выбора книг конкретного жанра.
         def test_get_books_with_specific_genre(self):
             self.collector.add_new_book('Шерлок Холмс')
             self.collector.set_book_genre('Шерлок Холмс', 'Детективы')
