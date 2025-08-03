@@ -79,7 +79,7 @@ class TestBooksCollector:
             expected_result = {'Анна Каренина': 'Фантастика'}
             self.assertDictEqual(current_state, expected_result)
 
-        # Тест получения книг для детей
+        # Тест получения книг для детей.
         def test_get_books_for_children(self):
             self.collector.add_new_book('Том и Джерри')
             self.collector.set_book_genre('Том и Джерри', 'Мультфильмы')

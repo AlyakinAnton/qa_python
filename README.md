@@ -8,4 +8,4 @@
 # test_get_books_for_children: проверяет отбор детских книг.
 # test_add_book_in_favorites: проверяет добавление книги в избранное.
 # test_delete_book_from_favorites: проверяет удаление книги из избранного.
-# test_get_list_of_favorites_books: проверяет получение списка избранных книг.
+# test_get_list_of_favorites_books: проверяет получение списка избранных книг
